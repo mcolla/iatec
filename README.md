@@ -44,3 +44,4 @@ Exemplos:
   
 <img src="https://live.staticflickr.com/65535/51799018834_71b93b1959_b.jpg" alt="Debugando a API">
   
+[⬆ Voltar ao topo](#IATec)<br>
