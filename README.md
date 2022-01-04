@@ -1,6 +1,11 @@
 # IATec
 Desafio técnico para oportunidade no IATec
 
+![GitHub repo size](https://img.shields.io/github/repo-size/mcolla/iatec/README-template?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
+
+https://img.shields.io/github/issues/mcolla/iatec
+
 # Estrutura das pastas
 Eu seguimentei em 2 pastas os fontes, backend e frontend.
 
@@ -44,6 +49,19 @@ Exemplos:
   
 <img src="https://live.staticflickr.com/65535/51799018834_71b93b1959_b.jpg" alt="Debugando a API">
   
+<br><br><br><br>
+## 💻 Pré-requisitos frontend
+
+Ambiente utilizado:
+* Angular, Angular CLI 13.1
+* Bootstrap 4 
+* Node 17.3
+  
+## ☕ Usando o frontend
+Para usar o frontend, basta acessar pasta do projeto (frontend\iatecv2) e executar:
+```
+ng serve
+```
   
 <br><br>
 [⬆ Voltar ao topo](#IATec)<br>
