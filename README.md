@@ -1,10 +1,6 @@
 # IATec
 Desafio técnico para oportunidade no IATec
 
-![GitHub repo size](https://img.shields.io/github/repo-size/mcolla/iatec/README-template?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
-
-https://img.shields.io/github/issues/mcolla/iatec
 
 # Estrutura das pastas
 Eu seguimentei em 2 pastas os fontes, backend e frontend.
