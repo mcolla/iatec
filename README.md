@@ -59,5 +59,39 @@ Para usar o frontend, basta acessar pasta do projeto (frontend\iatecv2) e execut
 ng serve
 ```
   
-<br><br>
+Observação: como no backend, iniciei o projeto (frontend\iatec), mas tive vários erros, gastei tempo pesquisando tentando resolver, exemplo, ao adicionar o Bootstrap ao projeto:
+```
+C:\Sandbox\iatec\frontend\iatec (main -> origin)
+λ npm install @ng-bootstrap/ng-bootstrap
+TypeError: Class extends value undefined is not a constructor or null
+    at Object.<anonymous> (C:\Users\micha\AppData\Roaming\nvm\v12.16.1\node_modules\npm\node_modules\socks-proxy-agent\dist\agent.js:114:44)
+    at Module._compile (node:internal/modules/cjs/loader:1097:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1149:10)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:999:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\micha\AppData\Roaming\nvm\v12.16.1\node_modules\npm\node_modules\socks-proxy-agent\dist\index.js:5:33)
+    at Module._compile (node:internal/modules/cjs/loader:1097:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1149:10)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:999:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\micha\AppData\Roaming\nvm\v12.16.1\node_modules\npm\node_modules\make-fetch-happen\lib\agent.js:161:25)
+    at Module._compile (node:internal/modules/cjs/loader:1097:14)
+  ```
+  
+
+Então, resolvi abandonar e iniciar outro projeto (frontend\iatecv2), mas ai não consegui finalizar devido ao tempo, só consegui adiantar parte da entidade Product, faltou de Vehicle e conectar a API para consumir e enviar dados.
+
+A estrutura definida:
+- [x] importação dos módulos
+- [x] criação das rotas
+- [x] Adicionando Bootstrap ao projeto usando CDN
+- [x] Criando services
+  [] Conectando API
+  
+ 
+ <br><br><br><br>
 [⬆ Voltar ao topo](#IATec)<br>
