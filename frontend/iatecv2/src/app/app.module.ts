@@ -9,13 +9,19 @@ import { ProductListComponent } from './components/product-list/product-list.com
 
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { VehicleCreateComponent } from './components/vehicle-create/vehicle-create.component';
+import { VehicleDetailsComponent } from './components/vehicle-details/vehicle-details.component';
+import { VehicleListComponent } from './components/vehicle-list/vehicle-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductCreateComponent,
     ProductDetailsComponent,
-    ProductListComponent
+    ProductListComponent,
+    VehicleCreateComponent,
+    VehicleDetailsComponent,
+    VehicleListComponent
   ],
   imports: [
     BrowserModule,
